@@ -1,0 +1,32 @@
+{
+  "name": "rimworld-popchart-app",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PochatokSolutions/rimworld-popchart-app.git"
+  },
+  "keywords": [
+    "rimworld",
+    "population",
+    "chart",
+    "graphics",
+    "statistics",
+    "angular",
+    "SPA"
+  ],
+  "author": "Pochatok Solutions",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PochatokSolutions/rimworld-popchart-app/issues"
+  },
+  "homepage": "https://github.com/PochatokSolutions/rimworld-popchart-app#readme",
+  "devDependencies": {
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0"
+  }
+}
