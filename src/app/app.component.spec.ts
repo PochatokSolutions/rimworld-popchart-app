@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'rim-test'`, () => {
+  it(`should have as title 'rimworld-popchart-app'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('rim-test');
+    expect(app.title).toEqual('rimworld-popchart-app');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('rim-test app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('rimworld-popchart-app app is running!');
   });
 });
