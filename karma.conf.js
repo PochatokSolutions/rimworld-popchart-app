@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/rim-test'),
+      dir: require('path').join(__dirname, './coverage/rimworld-popchart-app'),
       subdir: '.',
       reporters: [
         { type: 'html' },
