@@ -21,10 +21,10 @@ jobs:
 
       - name: Deploy
         run: >
+          git config --global user.name 'Pocha Github CI' &&
+          git config --global user.email 'example@example.com' &&
           mv dist/rimworld-popchart-app/* ./ &&
           git checkout --orphan gh-pages &&
           git add . &&
           git commit -m 'publish' &&
-          git config --global user.name 'Your Name' &&
-          git config --global user.email 'your-username@users.noreply.github.com' &&
           git push origin gh-pages
