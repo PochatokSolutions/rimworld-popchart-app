@@ -4,13 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "build-prod": "ng build --prod --base-href \"https://pochatoksolutions.github.io/rimworld-popchart-app/\"",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test --code-coverage --no-watch",
-    "lint": "ng lint"
   },
   "repository": {
     "type": "git",
