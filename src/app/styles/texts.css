@@ -1,0 +1,15 @@
+.font {
+  font-family: Roboto, monospace;
+  font-feature-settings: 'cpsp' on;
+}
+
+.title {
+  font: 2.5rem bold normal;
+  letter-spacing: 8px;
+  line-height: 36px;
+}
+
+.subtitle {
+  font: 2.1rem bold normal;
+  line-height: 30px;
+}
