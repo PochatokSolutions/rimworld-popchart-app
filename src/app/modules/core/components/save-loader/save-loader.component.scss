@@ -1,0 +1,22 @@
+@import "../../../../styles/texts.css";
+
+.save-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 842px;
+  height: 570px;
+  border: 5px dashed #fffcfc;
+  border-radius: 50px;
+}
+
+.title {
+  width: 239px;
+  height: 114px;
+  color: #fff;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: normal;
+}
