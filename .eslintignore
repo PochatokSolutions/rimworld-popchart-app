@@ -1,0 +1,11 @@
+/.fdk/
+/.idea/
+/.git/
+/coverage/
+/dist/
+/node_modules/
+
+.report.json
+package-lock.json
+
+README.md

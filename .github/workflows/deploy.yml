@@ -1,0 +1,30 @@
+name: Deploy Pocha on Github Pages
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js 14.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+
+      - name: Setup
+        run: npm ci
+
+      - name: Build
+        run: npm run build-prod
+
+      - name: Deploy
+        run: >
+          git config --global user.name 'Pocha Github CI' &&
+          git config --global user.email 'example@example.com' &&
+          mv dist/rimworld-popchart-app/* ./ &&
+          git checkout --orphan gh-pages &&
+          git add . &&
+          git commit -m 'publish' &&
+          git push -f origin gh-pages
